@@ -34,10 +34,6 @@ El sistema funcionará las 24 horas y los 7 días de la semana, debido a que es 
 
 El sistema asegurará a los usuarios un funcionamiento óptimo, de manera que puedan confiar en la fiabilidad del software disponible.
 
-## 3.3 Matriz de Trazabilidad de Requerimientos
-
-Para visualizar detalladamente la matriz, [haz clic aquí](#) o sobre la imagen.
-
 ## Creación de Prototipo en Figma
 
 ### Introducción
