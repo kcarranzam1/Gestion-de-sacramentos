@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constancia de Confirmación</title>
+    <style>
+
+.marco {
+            border: 5px solid #0d47a1; /* Grosor, estilo y color del borde */
+            padding: 20px;             /* Espacio interno dentro del borde */
+            border-radius: 40px;        /* Esquinas redondeadas */
+            width: 750px;                /* ancho*/
+            height: 1000px;             /* alto*/
+            margin: 20px auto;          /* Centra el div horizontalmente */
+            text-align: left;         /* Centra el texto dentro del div */
+            background-color: #f0f0f0;  /* Fondo gris claro */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+            
+}
+
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e0f7fa; /* Fondo celeste suave */
+            margin: 0;
+            padding: 0;
+        }
+
+        .certificate {
+            background-color: white;
+            width: 210mm;
+            height: 297mm;
+            margin: 40px auto;
+            padding: 40px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            display: flex;
+            align-items: center;  /* Alinea verticalmente */
+        }
+
+        .church-info {
+            text-align: center;
+            margin-left: auto;  /* Esto centrará los títulos */
+            margin-right: auto; /* Esto centrará los títulos */
+        }
+
+        .church-info h2 {
+            margin: 0;
+            font-size: 22px;
+            font-weight: bold;
+            color: #0d47a1;
+        }
+
+        .church-info p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #0d47a1;
+        }
+
+      
+        /* imagenes */
+        .confir-image img {
+            width: 120px;  
+            height: auto;
+            max-width: 100%;
+        }
+
+        .confirmation-title h1 {
+            text-align: center;
+            font-size: 28px;
+            margin: 20px 0;
+            font-weight: bold;
+            color: #1b5e20;
+            text-transform: uppercase;
+        }
+
+        .certificate-body {
+            font-size: 18px;
+            margin-top: 30px;
+            color: #000;
+            line-height: 1.6;
+        }
+
+        .blank {
+            border-bottom: 1px solid #000;
+            width: 250px;
+            display: inline-block;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            font-size: 16px;
+        }
+
+      
+
+        .footer-right {
+            text-align: right;
+        }
+
+        .footer-right p {
+            margin: 5px 0;
+        }
+
+        .parroco-signature {
+            font-weight: bold;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .parish-seal img {
+            width: 100px;
+            height: auto;
+        }
+
+        .footer-left p {
+            font-style: italic;
+            color: #616161;
+        }
+
+    
+        p {
+            margin-bottom: 15px;
+        }
+
+        .certificate p {
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+<body>
+
+   
+    <div class="certificate">
+        <div class="marco"> <!--marco-->
+        <header style="display: flex; align-items: center; justify-content: center;">
+            <!-- derecha -->
+            <div class="confir-image" style="margin-right: 20px;">
+                <img src="./img/cruz.jpg" alt="Cross" />
+            </div>
+        
+            
+            <div class="church-info" style="text-align: center;">
+                <h2>Parroquia Nuestra Señora de Las Mercedes</h2>
+                <p>Diócesis de Jalapa</p>
+                <p>Calle al Calvario, Barrio el Centro, Sansare, El Progreso</p>
+            </div>
+        
+            <!-- izquierda  -->
+            <div class="confir-image" style="margin-left: 20px;">
+                <img src="./img/confir.png" alt="Cross" />
+            </div>
+        </header>
+        
+
+        <section class="confirmation-title" style="text-align: center; margin: 20px 0;">
+            <h1 style="border: 2px solid #1b5e20; border-radius: 15px; padding: 10px; display: inline-block; margin: 0;">
+                Constancia de Confirmación
+            </h1>
+        </section>
+        
+        
+        <section class="certificate-body" style="line-height: 1;">
+            <p>El infrascrito, Párroco de: <span class="blank"></span></p>
+            <p style="text-align: center;">Certifica que en el libro de Confirmaciones</p>
+            <p>No. <span class="blank"></span> Folio <span class="blank"></span> de esta Parroquia consta que:</p>
+            <p>Hijo de <span class="blank"></span> y de <span class="blank"></span></p>
+            <p>Nacido el <span class="blank"></span> de <span class="blank"></span>
+            <P> del año <span class="blank"></span></p>
+            <p>Fue confirmado(a) en <span class="blank"></span></p>
+            <p>Por el Excmo. Monseñor <span class="blank"></span></p>
+            <p>habiendo sido <span class="blank"></span> adrin</p>
+        </section>
+
+        <footer>
+            
+                
+            <div class="footer-right" style="position: relative; height: 200px; text-align: left;">
+                <p>En Sansare, el <span class="blank"></span> de <span class="blank"></span> de 20 ______</p>
+           
+                   
+                    <div style="position: absolute; bottom: 0; right: 0; text-align: right;">
+                        <p>Parroco: <samp class="blank" ></samp></p>
+                        <p class="parroco-signature">Pbro. José Mauro López Argueta</p>
+                 
+
+                    </div>
+                   </div>
+            </div>
+            
+        </footer>
+    </div>
+        </div>
+
+    </div>
+</body>
+</html>
